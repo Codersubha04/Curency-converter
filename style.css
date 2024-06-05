@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url("Currency-Converter-Tool.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: white;
+    min-height: 50vh;
+    min-width: 25vw;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form button,input,select{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+.drop-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.drop-down i{
+    margin-top: 1rem;
+}
+.select-container img{
+     max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: 6rem;
+    height: 2.15rem;
+}
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+}
+.massage{
+    font-size: 1rem;
+    padding: 2rem 0 2rem 0;
+}
+form button{
+height: 3rem;
+font-size: 1.15rem;
+background-color: royalblue;
+color: white;
+cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+.container{
+    width: 70vw;
+    height: 60vh;
+}
+.container h1{
+    font-size: 22px;
+    text-align: center;
+}
+}
